@@ -170,7 +170,7 @@ let result = await vectorplugin.getChatCompletionWithConfig(chatModelConfig, pay
  
 ### `async getRagResponseWithConfig(input, tableName, embeddingColumnName, contentColumn, chatInstruction, context, [topK=3], [algoName='COSINE_SIMILARITY'], [chatParams], embeddingConfig, chatConfig)`
  
-Retrieve RAG (retrival-agumented generation) response from LLM.
+Retrieve RAG (retrieval-augmented generation) response from LLM.
  
 ### Parameters
  
@@ -316,7 +316,7 @@ let result = await vectorplugin.getChatCompletion(summaryPrompt);
  
 Note: This method is for backward compatibilty. This method just supports Azure OpenAI chat model. Use the `getRagResponseWithConfig` method instead.
  
-Retrieve RAG (retrival-agumented generation) response from LLM.
+Retrieve RAG (retrieval-augmented generation) response from LLM.
  
 ### Parameters
  
