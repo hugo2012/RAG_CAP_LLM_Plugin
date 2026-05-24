@@ -51,7 +51,7 @@ module.exports = function () {
             - Construct the prompt based on the system instruction and similarity search
             - Call chat completion model to retrieve relevant answer to the user query
             */
-            console.log("Getting the RAG retrival response from the CAP LLM Plugin!");
+            console.log("Getting the RAG retrieval response from the CAP LLM Plugin!");
 
             const chatRagResponse = await capllmplugin.getRagResponseWithConfig(
                 user_query,  //user query
